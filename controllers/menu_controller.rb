@@ -51,6 +51,7 @@ class MenuController
   
   def nuke
     @address_book = AddressBook.new
+    main_menu
   end
   
   def view_all_entries
